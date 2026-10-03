@@ -70,13 +70,13 @@ Not with janky regex find-and-replace scripts that break your code.
 With a **TypeScript Compiler AST Transformation Engine**, **Shannon Entropy Cryptographic Scanner**, and a **Self-Healing Multi-Model AI Gateway**.
 
 ```bash
-npx shipai
+npx @dadsnpm/shipai
 ```
 
 Or launch the visual dark-mode Studio dashboard:
 
 ```bash
-npx shipai studio
+npx @dadsnpm/shipai studio
 ```
 
 *(Opens `http://localhost:4488` with forensic health radar, live brand asset generator, and OpEx token cost calculator).*
@@ -180,7 +180,7 @@ The difference between a $500 hackathon prototype and a $50,000 commercial deliv
 Star the repo and try it on your current project:
 
 ⭐ **GitHub**: [github.com/alivirgo/shipai](https://github.com/alivirgo/shipai)  
-📦 **npm**: `npm install -g shipai` (or `npx shipai`)
+📦 **npm**: `npm install -g @dadsnpm/shipai` (or `npx @dadsnpm/shipai`)
 
 ---
 

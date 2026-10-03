@@ -1,9 +1,9 @@
-# ShipAI (`shipai`) 🚀
+# ShipAI (`@dadsnpm/shipai`) 🚀
 
-[![npm version](https://img.shields.io/npm/v/shipai.svg)](https://www.npmjs.com/package/shipai)
+[![npm version](https://img.shields.io/npm/v/@dadsnpm/shipai.svg)](https://www.npmjs.com/package/@dadsnpm/shipai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node: >=18](https://img.shields.io/badge/node-%3E%3D18.0.0-green.svg)](https://nodejs.org/)
-[![Tests: 55 Passed](https://img.shields.io/badge/tests-55%20passed-brightgreen.svg)](https://github.com/shipai/shipai)
+[![Tests: 55 Passed](https://img.shields.io/badge/tests-55%20passed-brightgreen.svg)](https://github.com/alivirgo/shipai)
 [![TypeScript AST](https://img.shields.io/badge/AST-TypeScript%20Compiler%20API-3178C6.svg)](https://www.typescriptlang.org/)
 
 > **Transform raw, chaotic AI-agent prototypes into enterprise-grade, production-hardened, and 100% bespoke client software solutions.**
@@ -31,7 +31,7 @@ Modern coding agents (**Claude Code, Cursor, Grok, ChatGPT, Devin, Windsurf, Bol
 Launch the dark-mode Studio dashboard with live health radar, color palette customizer, OpEx simulator, and unified diff inspector:
 
 ```bash
-npx shipai studio
+npx @dadsnpm/shipai studio
 ```
 *Opens `http://localhost:4488` in your browser.*
 
@@ -39,7 +39,14 @@ npx shipai studio
 Run the step-by-step terminal wizard:
 
 ```bash
-npx shipai
+npx @dadsnpm/shipai
+```
+
+### 3. Global Installation
+```bash
+npm install -g @dadsnpm/shipai
+# Then run anywhere:
+shipai
 ```
 
 ### 3. One-Command Complete Transformation

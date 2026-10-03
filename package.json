@@ -1,6 +1,9 @@
 {
-  "name": "shipai",
+  "name": "@dadsnpm/shipai",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Transform messy AI-agent prototypes into pristine, client-ready, bespoke software solutions.",
   "keywords": [
     "ai",
@@ -19,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alivirgo/shipai.git"
+    "url": "git+https://github.com/alivirgo/shipai.git"
   },
   "homepage": "https://github.com/alivirgo/shipai#readme",
   "bugs": {
@@ -30,7 +33,7 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "shipai": "./bin/shipai.js"
+    "shipai": "bin/shipai.js"
   },
   "files": [
     "dist",
