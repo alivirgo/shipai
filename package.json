@@ -1,0 +1,72 @@
+{
+  "name": "shipai",
+  "version": "1.0.0",
+  "description": "Transform messy AI-agent prototypes into pristine, client-ready, bespoke software solutions.",
+  "keywords": [
+    "ai",
+    "ship",
+    "rebrand",
+    "whitelabel",
+    "docker",
+    "client-ready",
+    "cli",
+    "bespoke",
+    "deployment",
+    "code-sanitizer",
+    "git-handoff"
+  ],
+  "author": "ShipAI Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alivirgo/shipai.git"
+  },
+  "homepage": "https://github.com/alivirgo/shipai#readme",
+  "bugs": {
+    "url": "https://github.com/alivirgo/shipai/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "shipai": "./bin/shipai.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "tsx src/cli/index.ts",
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "boxen": "^7.1.1",
+    "change-case": "^5.4.4",
+    "commander": "^12.1.0",
+    "diff": "^9.0.0",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.1.1",
+    "picocolors": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/diff": "^7.0.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.7.4",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
